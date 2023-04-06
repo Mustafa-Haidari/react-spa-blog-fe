@@ -1,0 +1,38 @@
+.blog {
+  max-width: 40rem;
+  margin: 1rem auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.blog img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.actions a,
+.actions button {
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(79, 135, 135);
+  border-radius: 3px;
+}
+
+.actions button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  background-color: rgb(207, 78, 78);
+  border-radius: 3px;
+}
